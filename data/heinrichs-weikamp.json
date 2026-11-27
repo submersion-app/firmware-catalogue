@@ -1,0 +1,266 @@
+{
+  "models": [
+    {
+      "id": "heinrichs-weikamp-ostc-4",
+      "manufacturer": "Heinrichs Weikamp",
+      "manufacturerAliases": [
+        "hwdiving",
+        "HW diving"
+      ],
+      "model": "OSTC 4",
+      "aliases": [
+        "OSTC4"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://hwdiving.com/firmware/?lang=en",
+      "releases": [
+        {
+          "version": "1.7.5",
+          "reportedAs": [
+            "2506"
+          ],
+          "date": "2026-01-12",
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt",
+          "instructionsUrl": "https://forum.heinrichsweikamp.com/viewtopic.php?t=19186",
+          "summary": "Adds a Surface GF readout, fixes several display issues and a Bluetooth shutdown timer, lowers sleep current on early OSTC 4 units, and supports faster Bluetooth on the OSTC 5.",
+          "source": "https://forum.heinrichsweikamp.com/viewtopic.php?t=22684"
+        },
+        {
+          "version": "1.7.3",
+          "reportedAs": [
+            "2502"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt",
+          "instructionsUrl": "https://forum.heinrichsweikamp.com/viewtopic.php?t=19186",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt"
+        },
+        {
+          "version": "1.7.2",
+          "reportedAs": [
+            "2500"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt",
+          "instructionsUrl": "https://forum.heinrichsweikamp.com/viewtopic.php?t=19186",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt"
+        },
+        {
+          "version": "1.7.1",
+          "reportedAs": [
+            "2498"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt",
+          "instructionsUrl": "https://forum.heinrichsweikamp.com/viewtopic.php?t=19186",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt"
+        }
+      ]
+    },
+    {
+      "id": "heinrichs-weikamp-ostc-5",
+      "manufacturer": "Heinrichs Weikamp",
+      "manufacturerAliases": [
+        "hwdiving",
+        "HW diving"
+      ],
+      "model": "OSTC 5",
+      "aliases": [
+        "OSTC5"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://hwdiving.com/firmware/?lang=en",
+      "releases": [
+        {
+          "version": "1.7.5",
+          "reportedAs": [
+            "2506"
+          ],
+          "date": "2026-01-12",
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt",
+          "instructionsUrl": "https://forum.heinrichsweikamp.com/viewtopic.php?t=19186",
+          "summary": "Adds a Surface GF readout, fixes several display issues and a Bluetooth shutdown timer, lowers sleep current on early OSTC 4 units, and supports faster Bluetooth on the OSTC 5.",
+          "source": "https://forum.heinrichsweikamp.com/viewtopic.php?t=22684"
+        },
+        {
+          "version": "1.7.3",
+          "reportedAs": [
+            "2502"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt",
+          "instructionsUrl": "https://forum.heinrichsweikamp.com/viewtopic.php?t=19186",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt"
+        },
+        {
+          "version": "1.7.2",
+          "reportedAs": [
+            "2500"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt",
+          "instructionsUrl": "https://forum.heinrichsweikamp.com/viewtopic.php?t=19186",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt"
+        },
+        {
+          "version": "1.7.1",
+          "reportedAs": [
+            "2498"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt",
+          "instructionsUrl": "https://forum.heinrichsweikamp.com/viewtopic.php?t=19186",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/ostc4_changelog.txt"
+        }
+      ]
+    },
+    {
+      "id": "heinrichs-weikamp-ostc-3",
+      "manufacturer": "Heinrichs Weikamp",
+      "manufacturerAliases": [
+        "hwdiving",
+        "HW diving"
+      ],
+      "model": "OSTC 3",
+      "aliases": [
+        "OSTC3"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://hwdiving.com/firmware/?lang=en",
+      "releases": [
+        {
+          "version": "3.38",
+          "reportedAs": [
+            "806"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt",
+          "summary": "Adds a logbook page with technical details of the recording, fixes a rare end-of-dive profile storage glitch on the OSTC nano and OSTC+ 2026, and supports new OSTC 2 hardware.",
+          "source": "https://hwdiving.com/firmware/?lang=en"
+        },
+        {
+          "version": "3.37",
+          "reportedAs": [
+            "805"
+          ],
+          "date": "2026-05-31",
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt",
+          "source": "https://forum.heinrichsweikamp.com/viewtopic.php?t=22724"
+        },
+        {
+          "version": "3.36",
+          "reportedAs": [
+            "804"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt"
+        },
+        {
+          "version": "3.34",
+          "reportedAs": [
+            "802"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt"
+        }
+      ]
+    },
+    {
+      "id": "heinrichs-weikamp-ostc-cr",
+      "manufacturer": "Heinrichs Weikamp",
+      "manufacturerAliases": [
+        "hwdiving",
+        "HW diving"
+      ],
+      "model": "OSTC cR",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://hwdiving.com/firmware/?lang=en",
+      "releases": [
+        {
+          "version": "3.38",
+          "reportedAs": [
+            "806"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt",
+          "summary": "Adds a logbook page with technical details of the recording, fixes a rare end-of-dive profile storage glitch on the OSTC nano and OSTC+ 2026, and supports new OSTC 2 hardware.",
+          "source": "https://hwdiving.com/firmware/?lang=en"
+        },
+        {
+          "version": "3.37",
+          "reportedAs": [
+            "805"
+          ],
+          "date": "2026-05-31",
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt",
+          "source": "https://forum.heinrichsweikamp.com/viewtopic.php?t=22724"
+        },
+        {
+          "version": "3.36",
+          "reportedAs": [
+            "804"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt"
+        },
+        {
+          "version": "3.34",
+          "reportedAs": [
+            "802"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/hwos_tech_changelog.txt"
+        }
+      ]
+    },
+    {
+      "id": "heinrichs-weikamp-ostc-sport",
+      "manufacturer": "Heinrichs Weikamp",
+      "manufacturerAliases": [
+        "hwdiving",
+        "HW diving"
+      ],
+      "model": "OSTC Sport",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://hwdiving.com/firmware/?lang=en",
+      "releases": [
+        {
+          "version": "10.99",
+          "reportedAs": [
+            "2659"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_sport_changelog.txt",
+          "summary": "Battery type T2 (14500 rechargeable Li-Ion) can be selected again on the OSTC+ and OSTC plus units that had lost it.",
+          "source": "https://hwdiving.com/firmware/?lang=en"
+        },
+        {
+          "version": "10.98",
+          "reportedAs": [
+            "2658"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_sport_changelog.txt",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/hwos_sport_changelog.txt"
+        },
+        {
+          "version": "10.97",
+          "reportedAs": [
+            "2657"
+          ],
+          "date": "2026-05-24",
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_sport_changelog.txt",
+          "source": "https://forum.heinrichsweikamp.com/viewtopic.php?t=22723"
+        },
+        {
+          "version": "10.96",
+          "reportedAs": [
+            "2656"
+          ],
+          "notesUrl": "https://www.heinrichsweikamp.net/autofirmware/hwos_sport_changelog.txt",
+          "source": "https://www.heinrichsweikamp.net/autofirmware/hwos_sport_changelog.txt"
+        }
+      ]
+    }
+  ]
+}

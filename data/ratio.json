@@ -1,0 +1,89 @@
+{
+  "models": [
+    {
+      "id": "ratio-idive-color",
+      "manufacturer": "Ratio",
+      "model": "iDive Color",
+      "aliases": [
+        "iDive Color Free",
+        "iDive Color Fancy",
+        "iDive Color Easy",
+        "iDive Color Pro",
+        "iDive Color Deep",
+        "iDive Color Tech+",
+        "iDive Color Reb"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.ratio-computers.com/update/color/index.htm",
+      "releases": [
+        {
+          "version": "4.1.34",
+          "notesUrl": "https://www.ratio-computers.com/update/color/index.htm",
+          "instructionsUrl": "https://www.ratio-computers.com/update/color/index.htm",
+          "source": "https://www.ratio-computers.com/update/color/index.htm"
+        },
+        {
+          "version": "4.1.32",
+          "notesUrl": "https://www.ratio-computers.com/update/color/index.htm",
+          "instructionsUrl": "https://www.ratio-computers.com/update/color/index.htm",
+          "source": "https://www.ratio-computers.com/update/color/index.htm"
+        }
+      ]
+    },
+    {
+      "id": "ratio-ix3m-2",
+      "manufacturer": "Ratio",
+      "model": "iX3M 2",
+      "aliases": [
+        "iX3M 2 Gauge",
+        "iX3M 2 Easy",
+        "iX3M 2 Pro",
+        "iX3M 2 Deep",
+        "iX3M 2 Tech+",
+        "iX3M 2 GPS Gauge",
+        "iX3M 2 GPS Easy",
+        "iX3M 2 GPS Pro",
+        "iX3M 2 GPS Deep",
+        "iX3M 2 GPS Tech",
+        "iX3M 2 GPS Reb"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.ratio-computers.com/update/ix3m2/index.htm",
+      "releases": [
+        {
+          "version": "5.2.11",
+          "notesUrl": "https://www.ratio-computers.com/update/ix3m2/index.htm",
+          "instructionsUrl": "https://www.ratio-computers.com/update/ix3m2/index.htm",
+          "source": "https://www.ratio-computers.com/update/ix3m2/index.htm"
+        }
+      ]
+    },
+    {
+      "id": "ratio-wireless-transmitter",
+      "manufacturer": "Ratio",
+      "model": "Wireless Transmitter",
+      "equipmentTypes": [
+        "transmitter"
+      ],
+      "firmwarePageUrl": "https://www.ratio-computers.com/update/transmitter/index.htm",
+      "releases": [
+        {
+          "version": "1.0.8",
+          "notesUrl": "https://www.ratio-computers.com/update/transmitter/index.htm",
+          "instructionsUrl": "https://www.ratio-computers.com/update/transmitter/index.htm",
+          "source": "https://www.ratio-computers.com/update/transmitter/index.htm"
+        },
+        {
+          "version": "1.0.5",
+          "notesUrl": "https://www.ratio-computers.com/update/transmitter/index.htm",
+          "instructionsUrl": "https://www.ratio-computers.com/update/transmitter/index.htm",
+          "source": "https://www.ratio-computers.com/update/transmitter/index.htm"
+        }
+      ]
+    }
+  ]
+}

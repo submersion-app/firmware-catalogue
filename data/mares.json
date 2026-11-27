@@ -1,0 +1,140 @@
+{
+  "models": [
+    {
+      "id": "mares-genius",
+      "manufacturer": "Mares",
+      "model": "Genius",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.mares.com/product/fw-genius-v1-04-00-ma-firm-013",
+      "releases": [
+        {
+          "version": "V1.06.07",
+          "notesUrl": "https://www.mares.com/product/fw-genius-v1-04-00-ma-firm-013",
+          "source": "https://www.mares.com/product/fw-genius-v1-04-00-ma-firm-013"
+        }
+      ]
+    },
+    {
+      "id": "mares-horizon",
+      "manufacturer": "Mares",
+      "model": "Horizon",
+      "aliases": [
+        "Horizon SCR"
+      ],
+      "equipmentTypes": [
+        "rebreather",
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.mares.com/product/fw-horizon-scr-v01-10-18-ma-firm-014",
+      "releases": [
+        {
+          "version": "V01.11.01",
+          "notesUrl": "https://www.mares.com/product/fw-horizon-scr-v01-10-18-ma-firm-014",
+          "source": "https://www.mares.com/product/fw-horizon-scr-v01-10-18-ma-firm-014"
+        }
+      ]
+    },
+    {
+      "id": "mares-puck-4",
+      "manufacturer": "Mares",
+      "model": "Puck 4",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.mares.com/product/fw-puck-4-v01-05-01-ma-firm-20",
+      "releases": [
+        {
+          "version": "V01.06.00",
+          "notesUrl": "https://www.mares.com/product/fw-puck-4-v01-05-01-ma-firm-20",
+          "source": "https://www.mares.com/product/fw-puck-4-v01-05-01-ma-firm-20"
+        }
+      ]
+    },
+    {
+      "id": "mares-puck-pro-ultra",
+      "manufacturer": "Mares",
+      "model": "Puck Pro Ultra",
+      "aliases": [
+        "Puck Lite",
+        "Puck Pro EZ"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.mares.com/product/fw-puck-lite-puck-pro-ultra-puck-pro-ez-v01-05-01-ma-firm-18",
+      "releases": [
+        {
+          "version": "V01.06.00",
+          "notesUrl": "https://www.mares.com/product/fw-puck-lite-puck-pro-ultra-puck-pro-ez-v01-05-01-ma-firm-18",
+          "source": "https://www.mares.com/product/fw-puck-lite-puck-pro-ultra-puck-pro-ez-v01-05-01-ma-firm-18"
+        }
+      ]
+    },
+    {
+      "id": "mares-quad-2",
+      "manufacturer": "Mares",
+      "model": "Quad 2",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.mares.com/product/fw-quad-2-v01-01-00-ma-firm-21",
+      "releases": [
+        {
+          "version": "V01.02.00",
+          "notesUrl": "https://www.mares.com/product/fw-quad-2-v01-01-00-ma-firm-21",
+          "source": "https://www.mares.com/product/fw-quad-2-v01-01-00-ma-firm-21"
+        }
+      ]
+    },
+    {
+      "id": "mares-quad-ci",
+      "manufacturer": "Mares",
+      "model": "Quad Ci",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.mares.com/product/fw-quad-ci-v01-01-01-ma-firm-22",
+      "releases": [
+        {
+          "version": "V02.01.01",
+          "notesUrl": "https://www.mares.com/product/fw-quad-ci-v01-01-01-ma-firm-22",
+          "source": "https://www.mares.com/product/fw-quad-ci-v01-01-01-ma-firm-22"
+        }
+      ]
+    },
+    {
+      "id": "mares-sirius",
+      "manufacturer": "Mares",
+      "model": "Sirius",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.mares.com/product/fw-sirius-ma-firm-016",
+      "releases": [
+        {
+          "version": "V01.10.00",
+          "notesUrl": "https://www.mares.com/product/fw-sirius-ma-firm-016",
+          "source": "https://www.mares.com/product/fw-sirius-ma-firm-016"
+        }
+      ]
+    },
+    {
+      "id": "mares-smart-air",
+      "manufacturer": "Mares",
+      "model": "Smart Air",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.mares.com/product/fw-smart-air-v1-00-ma-firm-015",
+      "releases": [
+        {
+          "version": "V01.00.08",
+          "notesUrl": "https://www.mares.com/product/fw-smart-air-v1-00-ma-firm-015",
+          "source": "https://www.mares.com/product/fw-smart-air-v1-00-ma-firm-015"
+        }
+      ]
+    }
+  ]
+}

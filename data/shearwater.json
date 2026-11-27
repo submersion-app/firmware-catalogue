@@ -1,0 +1,652 @@
+{
+  "models": [
+    {
+      "id": "shearwater-perdix-3",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Perdix 3",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/perdix-3-support",
+      "releases": [
+        {
+          "version": "V39",
+          "reportedAs": [
+            "39"
+          ],
+          "date": "2026-07-03",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Perdix_3_Release_Notes-v39-English.pdf?v=1787156363",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-3-support",
+          "summary": "Better wireless air integration reception, fixes a wrong feet label in Edit Gases and the Avelo high-pressure stop-pump warning on the surface, and makes large translated updates more reliable.",
+          "source": "https://shearwater.com/pages/perdix-3-support"
+        },
+        {
+          "version": "V38",
+          "reportedAs": [
+            "38"
+          ],
+          "date": "2026-05-27",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Perdix_3_Release_Notes-v39-English.pdf?v=1787156363",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-3-support",
+          "source": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Perdix_3_Release_Notes-v39-English.pdf?v=1787156363"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-perdix-2",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Perdix 2",
+      "aliases": [
+        "Perdix2"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/perdix-2-support",
+      "releases": [
+        {
+          "version": "V102",
+          "reportedAs": [
+            "102"
+          ],
+          "date": "2025-11-10",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Perdix_2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-2-support",
+          "summary": "Adds Swift GPS transmitter support (off until enabled), raises the default GF Low to 50 for every preset, and changes how the starting tank pressure is found for whole-dive SAC.",
+          "source": "https://shearwater.com/pages/perdix-2-support"
+        },
+        {
+          "version": "V100",
+          "reportedAs": [
+            "100"
+          ],
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Perdix_2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-2-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Perdix_2-Release-Notes-v102-English.pdf?v=1762555521"
+        },
+        {
+          "version": "V99",
+          "reportedAs": [
+            "99"
+          ],
+          "date": "2024-12-18",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Perdix_2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-2-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Perdix_2-Release-Notes-v102-English.pdf?v=1762555521"
+        },
+        {
+          "version": "V98",
+          "reportedAs": [
+            "98"
+          ],
+          "date": "2024-07-15",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Perdix_2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-2-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Perdix_2-Release-Notes-v102-English.pdf?v=1762555521"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-perdix-ai",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Perdix AI",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/perdix-ai-support",
+      "releases": [
+        {
+          "version": "V102",
+          "reportedAs": [
+            "102"
+          ],
+          "date": "2025-11-10",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/PerdixAI-Release-Notes-v102-English.pdf?v=1762555520",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-ai-support",
+          "summary": "Adds Swift GPS transmitter support (off until enabled), raises the default GF Low to 50 for every preset, and changes how the starting tank pressure is found for whole-dive SAC. Also fixes the battery voltage shown right after a battery change.",
+          "source": "https://shearwater.com/pages/perdix-ai-support"
+        },
+        {
+          "version": "V101",
+          "reportedAs": [
+            "101"
+          ],
+          "date": "2025-09-02",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/PerdixAI-Release-Notes-v102-English.pdf?v=1762555520",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-ai-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/PerdixAI-Release-Notes-v102-English.pdf?v=1762555520"
+        },
+        {
+          "version": "V100",
+          "reportedAs": [
+            "100"
+          ],
+          "date": "2025-08-12",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/PerdixAI-Release-Notes-v102-English.pdf?v=1762555520",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-ai-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/PerdixAI-Release-Notes-v102-English.pdf?v=1762555520"
+        },
+        {
+          "version": "V93",
+          "reportedAs": [
+            "93"
+          ],
+          "date": "2022-09-28",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel2-PerdixAI-Perdix-Nerd-2-v93-Release-Notes-EN.pdf?v=1712255699",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-ai-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel2-PerdixAI-Perdix-Nerd-2-v93-Release-Notes-EN.pdf?v=1712255699"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-perdix",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Perdix",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/perdix-support",
+      "releases": [
+        {
+          "version": "V93",
+          "reportedAs": [
+            "93"
+          ],
+          "date": "2022-09-28",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel2-PerdixAI-Perdix-Nerd-2-v93-Release-Notes-EN.pdf?v=1712255699",
+          "instructionsUrl": "https://shearwater.com/pages/perdix-support",
+          "summary": "Brings the feature set first released on Petrel 3 and Perdix 2 to the original Perdix where the hardware allows.",
+          "source": "https://shearwater.com/pages/perdix-support"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-petrel-3",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Petrel 3",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/petrel-3-support",
+      "releases": [
+        {
+          "version": "V103",
+          "reportedAs": [
+            "103"
+          ],
+          "date": "2026-03-04",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Petrel3-Nerd2-Release-Notes-v103-English.pdf?v=1772736271",
+          "instructionsUrl": "https://shearwater.com/pages/petrel-3-support",
+          "summary": "Petrel 3 only: corrects the single-point oxygen sensor calibration on analog Petrel 3 monitors for more accurate PPO2; Shearwater asks every analog Petrel 3 user to update. DiveCAN units are unaffected.",
+          "source": "https://shearwater.com/pages/petrel-3-support"
+        },
+        {
+          "version": "V102",
+          "reportedAs": [
+            "102"
+          ],
+          "date": "2025-11-10",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/petrel-3-support",
+          "summary": "Adds Swift GPS transmitter support (off until enabled), raises the default GF Low to 50 for every preset, and changes how the starting tank pressure is found for whole-dive SAC.",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521"
+        },
+        {
+          "version": "V98",
+          "reportedAs": [
+            "98"
+          ],
+          "date": "2024-08-13",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/petrel-3-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521"
+        },
+        {
+          "version": "V97",
+          "reportedAs": [
+            "97"
+          ],
+          "date": "2023-08-16",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/petrel-3-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-petrel-2",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Petrel 2",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/petrel-2-support",
+      "releases": [
+        {
+          "version": "V97",
+          "reportedAs": [
+            "97"
+          ],
+          "date": "2023-08-16",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Petrel2-Nerd2-v97-Release-Notes-EN.pdf?v=1710867009",
+          "instructionsUrl": "https://shearwater.com/pages/petrel-2-support",
+          "summary": "On DiveCAN controllers that show a liability screen, the screen is skipped when the unit wakes from water contact.",
+          "source": "https://shearwater.com/pages/petrel-2-support"
+        },
+        {
+          "version": "V93",
+          "reportedAs": [
+            "93"
+          ],
+          "date": "2022-09-28",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel2-PerdixAI-Perdix-Nerd-2-v93-Release-Notes-EN.pdf?v=1712255699",
+          "instructionsUrl": "https://shearwater.com/pages/petrel-2-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel2-PerdixAI-Perdix-Nerd-2-v93-Release-Notes-EN.pdf?v=1712255699"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-petrel",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Petrel",
+      "aliases": [
+        "Petrel 1"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/petrel-support",
+      "releases": [
+        {
+          "version": "V72",
+          "reportedAs": [
+            "72"
+          ],
+          "instructionsUrl": "https://shearwater.com/pages/petrel-support",
+          "source": "https://shearwater.com/pages/petrel-2-support"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-nerd-2",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "NERD 2",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/nerd-2-support",
+      "releases": [
+        {
+          "version": "V102",
+          "reportedAs": [
+            "102"
+          ],
+          "date": "2025-11-10",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/nerd-2-support",
+          "summary": "Adds Swift GPS transmitter support (off until enabled), raises the default GF Low to 50 for every preset, and changes how the starting tank pressure is found for whole-dive SAC.",
+          "source": "https://shearwater.com/pages/nerd-2-support"
+        },
+        {
+          "version": "V98",
+          "reportedAs": [
+            "98"
+          ],
+          "date": "2024-08-13",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/nerd-2-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521"
+        },
+        {
+          "version": "V97",
+          "reportedAs": [
+            "97"
+          ],
+          "date": "2023-08-16",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521",
+          "instructionsUrl": "https://shearwater.com/pages/nerd-2-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Petrel3-Nerd2-Release-Notes-v102-English.pdf?v=1762555521"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-nerd",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "NERD",
+      "aliases": [
+        "NERD 1"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/nerd-support",
+      "releases": [
+        {
+          "version": "V10",
+          "reportedAs": [
+            "10"
+          ],
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/NERD-v10-Release-Notes.pdf?v=1711571963",
+          "instructionsUrl": "https://shearwater.com/pages/nerd-support",
+          "summary": "Fixes the PPO2 used for decompression and CNS in DiveCAN mode; DiveCAN users of V09 should update.",
+          "safety": true,
+          "source": "https://shearwater.com/pages/nerd-1-support"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-teric",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Teric",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/teric-support",
+      "releases": [
+        {
+          "version": "V37",
+          "reportedAs": [
+            "37"
+          ],
+          "date": "2026-01-16",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Teric-Tern-Release-Notes-v37-English_2.pdf?v=1768605625",
+          "instructionsUrl": "https://shearwater.com/pages/teric-support",
+          "summary": "Teric only: fixes the watch timer and alarm vibration pattern, stops the wireless charger when charging completes, and always logs five minutes of Avelo pre-dive data.",
+          "source": "https://shearwater.com/pages/teric-support"
+        },
+        {
+          "version": "V36",
+          "reportedAs": [
+            "36"
+          ],
+          "date": "2025-12-02",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Teric-Tern-Release-Notes-v37-English_2.pdf?v=1768605625",
+          "instructionsUrl": "https://shearwater.com/pages/teric-support",
+          "source": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Teric-Tern-Release-Notes-v37-English_2.pdf?v=1768605625"
+        },
+        {
+          "version": "V33",
+          "reportedAs": [
+            "33"
+          ],
+          "date": "2024-12-16",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Teric-Tern-Release-Notes-v37-English_2.pdf?v=1768605625",
+          "instructionsUrl": "https://shearwater.com/pages/teric-support",
+          "source": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Teric-Tern-Release-Notes-v37-English_2.pdf?v=1768605625"
+        },
+        {
+          "version": "V32",
+          "reportedAs": [
+            "32"
+          ],
+          "date": "2024-12-02",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Teric-Tern-Release-Notes-v37-English_2.pdf?v=1768605625",
+          "instructionsUrl": "https://shearwater.com/pages/teric-support",
+          "source": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Teric-Tern-Release-Notes-v37-English_2.pdf?v=1768605625"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-tern",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Tern",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/tern-support",
+      "releases": [
+        {
+          "version": "V36",
+          "reportedAs": [
+            "36"
+          ],
+          "date": "2025-12-01",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737",
+          "instructionsUrl": "https://shearwater.com/pages/tern-support",
+          "summary": "Raises the default GF Low to 50 for every preset.",
+          "source": "https://shearwater.com/pages/tern-support"
+        },
+        {
+          "version": "V35",
+          "reportedAs": [
+            "35"
+          ],
+          "date": "2025-04-10",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737",
+          "instructionsUrl": "https://shearwater.com/pages/tern-support",
+          "summary": "Corrects a critical V34 fault in which Air mode could use the nitrox gas; every V34 user should update.",
+          "safety": true,
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737"
+        },
+        {
+          "version": "V34",
+          "reportedAs": [
+            "34"
+          ],
+          "date": "2025-01-21",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737",
+          "instructionsUrl": "https://shearwater.com/pages/tern-support",
+          "summary": "Withdrawn: Shearwater says not to use V34 on the Tern or Tern TX; update to V35 or later.",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-tern-tx",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Tern TX",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/tern-tx-support",
+      "releases": [
+        {
+          "version": "V36",
+          "reportedAs": [
+            "36"
+          ],
+          "date": "2025-12-01",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737",
+          "instructionsUrl": "https://shearwater.com/pages/tern-tx-support",
+          "summary": "Adds Swift GPS transmitter support, raises the default GF Low to 50, changes how the starting tank pressure is found for whole-dive SAC, and buffers Avelo pre-dive data.",
+          "source": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Teric-Tern-Release-Notes-v37-English_2.pdf?v=1768605625"
+        },
+        {
+          "version": "V35",
+          "reportedAs": [
+            "35"
+          ],
+          "date": "2025-04-10",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737",
+          "instructionsUrl": "https://shearwater.com/pages/tern-tx-support",
+          "summary": "Corrects a critical V34 fault in which Air mode could use the nitrox gas; every V34 user should update.",
+          "safety": true,
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737"
+        },
+        {
+          "version": "V34",
+          "reportedAs": [
+            "34"
+          ],
+          "date": "2025-01-21",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737",
+          "instructionsUrl": "https://shearwater.com/pages/tern-tx-support",
+          "summary": "Withdrawn: Shearwater says not to use V34 on the Tern or Tern TX; update to V35 or later.",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Teric-Tern-Release-Notes-v36-English_1.pdf?v=1764628737"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-peregrine",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Peregrine",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/peregrine-support",
+      "releases": [
+        {
+          "version": "V89",
+          "reportedAs": [
+            "89"
+          ],
+          "date": "2025-09-22",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine-v89-Release-Notes-RevA-EN_2.pdf?v=1758731887",
+          "instructionsUrl": "https://shearwater.com/pages/peregrine-support",
+          "summary": "Restores tissue loading after the reset caused by holding a button for over 15 seconds while off, which used to erase it; Shearwater asks all Peregrine users to update.",
+          "safety": true,
+          "source": "https://shearwater.com/pages/peregrine-support"
+        },
+        {
+          "version": "V88",
+          "reportedAs": [
+            "88"
+          ],
+          "date": "2025-06-18",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine-v89-Release-Notes-RevA-EN_2.pdf?v=1758731887",
+          "instructionsUrl": "https://shearwater.com/pages/peregrine-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine-v89-Release-Notes-RevA-EN_2.pdf?v=1758731887"
+        },
+        {
+          "version": "V87",
+          "reportedAs": [
+            "87"
+          ],
+          "date": "2024-06-27",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine-v89-Release-Notes-RevA-EN_2.pdf?v=1758731887",
+          "instructionsUrl": "https://shearwater.com/pages/peregrine-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine-v89-Release-Notes-RevA-EN_2.pdf?v=1758731887"
+        },
+        {
+          "version": "V86",
+          "reportedAs": [
+            "86"
+          ],
+          "date": "2022-09-12",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine-v89-Release-Notes-RevA-EN_2.pdf?v=1758731887",
+          "instructionsUrl": "https://shearwater.com/pages/peregrine-support",
+          "source": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Peregrine-v89-Release-Notes-RevA-EN_2.pdf?v=1758731887"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-peregrine-tx",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Peregrine TX",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/peregrine-tx-support",
+      "releases": [
+        {
+          "version": "V104",
+          "reportedAs": [
+            "104"
+          ],
+          "date": "2026-10-08",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/PeregrineTX-Release-Notes-v104-English.pdf?v=1793916482",
+          "instructionsUrl": "https://shearwater.com/pages/peregrine-tx-support",
+          "summary": "Adds the Surface GF +5 minutes readout from the Perdix 3 and helps Avelo mode capture pre-dive surface events.",
+          "source": "https://shearwater.com/pages/peregrine-tx-support"
+        },
+        {
+          "version": "V102",
+          "reportedAs": [
+            "102"
+          ],
+          "date": "2025-11-10",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/PeregrineTX-Release-Notes-v104-English.pdf?v=1793916482",
+          "instructionsUrl": "https://shearwater.com/pages/peregrine-tx-support",
+          "summary": "Adds Swift GPS transmitter support (off until enabled), raises the default GF Low to 50 for every preset, and changes how the starting tank pressure is found for whole-dive SAC.",
+          "source": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/PeregrineTX-Release-Notes-v104-English.pdf?v=1793916482"
+        },
+        {
+          "version": "V100",
+          "reportedAs": [
+            "100"
+          ],
+          "date": "2025-06-11",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/PeregrineTX-Release-Notes-v104-English.pdf?v=1793916482",
+          "instructionsUrl": "https://shearwater.com/pages/peregrine-tx-support",
+          "source": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/PeregrineTX-Release-Notes-v104-English.pdf?v=1793916482"
+        },
+        {
+          "version": "V99",
+          "reportedAs": [
+            "99"
+          ],
+          "date": "2024-11-15",
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/PeregrineTX-Release-Notes-v104-English.pdf?v=1793916482",
+          "instructionsUrl": "https://shearwater.com/pages/peregrine-tx-support",
+          "source": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/PeregrineTX-Release-Notes-v104-English.pdf?v=1793916482"
+        }
+      ]
+    },
+    {
+      "id": "shearwater-predator",
+      "manufacturer": "Shearwater",
+      "manufacturerAliases": [
+        "Shearwater Research"
+      ],
+      "model": "Predator",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://shearwater.com/pages/predator-support",
+      "releases": [
+        {
+          "version": "V63",
+          "reportedAs": [
+            "63"
+          ],
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0838/3732/1530/files/Predator-V63-Release-Notes.pdf?v=1710194275",
+          "instructionsUrl": "https://shearwater.com/pages/predator-support",
+          "summary": "Faster automatic turn-on, more reliable surface pressure at altitude, and dive planner CNS and gas fixes.",
+          "source": "https://shearwater.com/pages/predator-support"
+        }
+      ]
+    }
+  ]
+}
