@@ -1,0 +1,189 @@
+{
+  "models": [
+    {
+      "id": "suunto-d5",
+      "manufacturer": "Suunto",
+      "model": "D5",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-d5-software-updates/",
+      "releases": [
+        {
+          "version": "3.0",
+          "date": "2022-03-16",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-d5-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-d5-software-updates/"
+        },
+        {
+          "version": "2.5.2059",
+          "date": "2021-03-31",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-d5-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-d5-software-updates/"
+        },
+        {
+          "version": "2.5",
+          "date": "2020-04-09",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-d5-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-d5-software-updates/"
+        }
+      ]
+    },
+    {
+      "id": "suunto-eon-core",
+      "manufacturer": "Suunto",
+      "model": "EON Core",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+      "releases": [
+        {
+          "version": "4.0",
+          "date": "2024-12-19",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+          "summary": "Adds the Suunto Buhlmann 16 GF decompression algorithm to the EON Core, with stepped or continuous ascent profiles.",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/"
+        },
+        {
+          "version": "3.0",
+          "date": "2022-03-16",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/"
+        },
+        {
+          "version": "2.0",
+          "date": "2020-03-03",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/"
+        }
+      ]
+    },
+    {
+      "id": "suunto-eon-steel",
+      "manufacturer": "Suunto",
+      "model": "EON Steel",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+      "releases": [
+        {
+          "version": "3.0",
+          "date": "2022-03-16",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/"
+        },
+        {
+          "version": "2.5.168",
+          "date": "2021-03-31",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/"
+        },
+        {
+          "version": "2.5",
+          "date": "2021-01-18",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/"
+        }
+      ]
+    },
+    {
+      "id": "suunto-eon-steel-black",
+      "manufacturer": "Suunto",
+      "model": "EON Steel Black",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+      "releases": [
+        {
+          "version": "3.0",
+          "date": "2022-03-16",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-eon-collection-software-updates/"
+        }
+      ]
+    },
+    {
+      "id": "suunto-nautic",
+      "manufacturer": "Suunto",
+      "model": "Nautic",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-software-updates/",
+      "releases": [
+        {
+          "version": "2.55.46",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-software-updates/"
+        },
+        {
+          "version": "2.49.32",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-software-updates/"
+        },
+        {
+          "version": "2.49.28",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-software-updates/"
+        }
+      ]
+    },
+    {
+      "id": "suunto-nautic-s",
+      "manufacturer": "Suunto",
+      "model": "Nautic S",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-s-software-updates/",
+      "releases": [
+        {
+          "version": "2.54.12",
+          "date": "2026-06-16",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-s-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-s-software-updates/"
+        },
+        {
+          "version": "2.51.10",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-s-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-nautic-s-software-updates/"
+        }
+      ]
+    },
+    {
+      "id": "suunto-ocean",
+      "manufacturer": "Suunto",
+      "model": "Ocean",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-ocean-software-updates/",
+      "releases": [
+        {
+          "version": "2.51.28",
+          "date": "2026-05-12",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-ocean-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-ocean-software-updates/"
+        },
+        {
+          "version": "2.40.56",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-ocean-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-ocean-software-updates/"
+        },
+        {
+          "version": "2.38.42",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-ocean-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-ocean-software-updates/"
+        },
+        {
+          "version": "2.36.18",
+          "notesUrl": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-ocean-software-updates/",
+          "source": "https://www.suunto.com/Support/Software-updates/Release-notes/suunto-ocean-software-updates/"
+        }
+      ]
+    }
+  ]
+}

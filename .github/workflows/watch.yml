@@ -1,0 +1,44 @@
+name: Watch maker pages
+
+# Daily: read each maker page that has a parser in fwcat/parsers/. A new
+# version becomes a PR for a person to check and merge; a page that cannot
+# be read opens (or updates) an issue and turns this run red. Nothing is
+# ever committed to main from here.
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Read the pages
+        run: python3.14 -m fwcat.watch --plan build/plan.json
+
+      - name: Open PRs and issues
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3.14 -m fwcat.publish build/plan.json

@@ -1,0 +1,32 @@
+{
+  "models": [
+    {
+      "id": "halcyon-symbios-handset",
+      "manufacturer": "Halcyon",
+      "model": "Symbios Handset",
+      "aliases": [
+        "Symbios",
+        "Symbios HUD"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://halcyon.net/news/latest-symbios-firmware-updates-and-enhancements",
+      "releases": [
+        {
+          "version": "V2.36.12",
+          "date": "2026-10-08",
+          "notesUrl": "https://halcyon.net/news/latest-symbios-firmware-updates-and-enhancements",
+          "summary": "Needed for the latest Halcyon app; adds features and bug fixes.",
+          "source": "https://halcyon.net/news/latest-symbios-firmware-updates-and-enhancements"
+        },
+        {
+          "version": "V2.36.11",
+          "date": "2026-07-06",
+          "notesUrl": "https://halcyon.net/news/latest-symbios-firmware-updates-and-enhancements",
+          "source": "https://halcyon.net/news/latest-symbios-firmware-updates-and-enhancements"
+        }
+      ]
+    }
+  ]
+}

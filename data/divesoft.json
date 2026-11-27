@@ -1,0 +1,30 @@
+{
+  "models": [
+    {
+      "id": "divesoft-liberty",
+      "manufacturer": "Divesoft",
+      "model": "Liberty",
+      "equipmentTypes": [
+        "rebreather"
+      ],
+      "firmwarePageUrl": "https://www.divesoft.com/en/downloads/ccr-liberty-rebreather/firmware",
+      "releases": [
+        {
+          "version": "2.18.3-10252",
+          "date": "2025-09-09",
+          "notesUrl": "https://www.divesoft.com/en/downloads/ccr-liberty-rebreather/firmware",
+          "instructionsUrl": "https://support.divesoft.com/how-do-i-update-divesoft-liberty-firmware",
+          "summary": "Fixes the oxygen sensor calibration sometimes not surviving a power cycle, a fault introduced in 2.18.2.",
+          "source": "https://www.divesoft.com/en/downloads/ccr-liberty-rebreather/firmware"
+        },
+        {
+          "version": "2.18.2-10019",
+          "date": "2025-05-23",
+          "notesUrl": "https://www.divesoft.com/en/downloads/ccr-liberty-rebreather/firmware",
+          "instructionsUrl": "https://support.divesoft.com/how-do-i-update-divesoft-liberty-firmware",
+          "source": "https://www.divesoft.com/en/downloads/ccr-liberty-rebreather/firmware"
+        }
+      ]
+    }
+  ]
+}

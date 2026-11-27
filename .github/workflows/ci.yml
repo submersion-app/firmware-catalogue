@@ -1,0 +1,36 @@
+name: CI
+
+# Runs on every PR and push to main. The watcher dispatches it on the
+# branches it pushes, because a PR opened with the workflow token starts
+# no workflows of its own.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - name: Run the tests
+        run: python3.14 tests/run_tests.py
+      - name: Validate the data and the shared sample
+        run: python3.14 -m fwcat.validate
+      - name: Build the catalogue
+        run: python3.14 -m fwcat.build --out build/firmware-catalogue.json
+      - name: No em-dash or en-dash as punctuation
+        run: python3.14 -m fwcat.no_dashes

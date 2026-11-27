@@ -1,0 +1,67 @@
+name: Release
+
+# Publishes firmware-catalogue.json as the asset of a date-tagged release
+# whenever a change to data/ reaches main, so a merged PR is what the app
+# sees next (it fetches the latest release at most once a day). A build
+# whose models match the last release's publishes nothing.
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Run the tests and the validator
+        run: |
+          python3.14 tests/run_tests.py
+          python3.14 -m fwcat.validate
+
+      - name: Fetch the last release's catalogue to compare with
+        run: |
+          set -euo pipefail
+          last="$(gh release list --limit 1 --exclude-drafts --exclude-pre-releases --json tagName -q '.[0].tagName // empty')"
+          if [ -n "$last" ]; then
+            gh release download "$last" --pattern firmware-catalogue.json --dir build/previous
+            echo "PREVIOUS=build/previous/firmware-catalogue.json" >> "$GITHUB_ENV"
+          fi
+
+      - name: Build
+        id: build
+        run: |
+          set +e
+          python3.14 -m fwcat.build --out build/release/firmware-catalogue.json \
+            --notes build/release-notes.md ${PREVIOUS:+--previous "$PREVIOUS"}
+          code=$?
+          if [ "$code" = 3 ]; then
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "publish=true" >> "$GITHUB_OUTPUT"
+          exit "$code"
+
+      - name: Publish it
+        if: steps.build.outputs.publish == 'true'
+        run: |
+          set -euo pipefail
+          existing="$(gh release list --limit 500 --json tagName -q '.[].tagName')"
+          tag="$(printf '%s\n' "$existing" | python3.14 -c 'import sys, datetime; from fwcat.build import next_tag; print(next_tag(sys.stdin.read().split(), datetime.datetime.now(datetime.UTC).date()))')"
+          gh release create "$tag" build/release/firmware-catalogue.json \
+            --title "$tag" --notes-file build/release-notes.md --latest

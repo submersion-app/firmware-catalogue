@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/submersion-app/firmware-catalogue/schema/format-1.schema.json",
+  "title": "Submersion firmware catalogue, format 1",
+  "description": "The latest firmware releases per gear model. The app ignores keys it does not know, so this schema allows them; the repository's own data files are checked strictly (see fwcat/validate.py).",
+  "type": "object",
+  "required": ["format", "generatedAt", "models"],
+  "properties": {
+    "format": {
+      "description": "Format version. The app ignores a file whose format it does not know.",
+      "type": "integer",
+      "const": 1
+    },
+    "generatedAt": {
+      "description": "When the file was built, UTC.",
+      "type": "string",
+      "format": "date-time"
+    },
+    "models": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/model" }
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^\\S(.*\\S)?$"
+    },
+    "httpsUrl": {
+      "type": "string",
+      "format": "uri",
+      "maxLength": 2000,
+      "pattern": "^https://[^\\s]+$"
+    },
+    "model": {
+      "type": "object",
+      "required": ["id", "manufacturer", "model", "equipmentTypes", "releases"],
+      "properties": {
+        "id": {
+          "description": "Stable and unique; never shown by the app.",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "maxLength": 100
+        },
+        "manufacturer": {
+          "description": "The maker's spelling.",
+          "$ref": "#/$defs/text"
+        },
+        "manufacturerAliases": {
+          "description": "Other maker spellings and former brand names.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/text" },
+          "uniqueItems": true
+        },
+        "model": {
+          "description": "The maker's spelling.",
+          "$ref": "#/$defs/text"
+        },
+        "aliases": {
+          "description": "Other model spellings divers or devices use.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/text" },
+          "uniqueItems": true
+        },
+        "equipmentTypes": {
+          "description": "The app's EquipmentType names this model can be filed under.",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/equipmentType" }
+        },
+        "firmwarePageUrl": { "$ref": "#/$defs/httpsUrl" },
+        "releases": {
+          "description": "Newest first. Order, not version parsing, decides what is newer.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/release" }
+        }
+      },
+      "additionalProperties": true
+    },
+    "release": {
+      "type": "object",
+      "required": ["version", "source"],
+      "properties": {
+        "version": {
+          "description": "The maker's spelling.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60,
+          "pattern": "^\\S(.*\\S)?$"
+        },
+        "reportedAs": {
+          "description": "Other spellings of this release, such as what libdivecomputer or a maker's cloud reports.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60,
+            "pattern": "^\\S(.*\\S)?$"
+          },
+          "uniqueItems": true
+        },
+        "date": {
+          "description": "Release date, YYYY-MM-DD.",
+          "type": "string",
+          "format": "date"
+        },
+        "notesUrl": { "$ref": "#/$defs/httpsUrl" },
+        "instructionsUrl": { "$ref": "#/$defs/httpsUrl" },
+        "summary": {
+          "description": "Short plain-text summary of what changed.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300,
+          "pattern": "^\\S(.*\\S)?$"
+        },
+        "safety": {
+          "description": "True when the maker calls the release a safety or critical fix.",
+          "type": "boolean"
+        },
+        "source": {
+          "description": "Where this release was read. Required by the validator, ignored by the app.",
+          "$ref": "#/$defs/httpsUrl"
+        }
+      },
+      "additionalProperties": true
+    },
+    "equipmentType": {
+      "enum": [
+        "regulator",
+        "firstStage",
+        "secondStage",
+        "hose",
+        "bcd",
+        "backplate",
+        "wing",
+        "harness",
+        "tankBand",
+        "weightPocket",
+        "gearPocket",
+        "wetsuit",
+        "drysuit",
+        "undersuit",
+        "baselayer",
+        "rashGuard",
+        "vest",
+        "fins",
+        "mask",
+        "snorkel",
+        "computer",
+        "transmitter",
+        "instrument",
+        "compass",
+        "tank",
+        "rebreather",
+        "weights",
+        "light",
+        "camera",
+        "lens",
+        "port",
+        "housing",
+        "trayHandle",
+        "armClamp",
+        "strobe",
+        "videoLight",
+        "floatArm",
+        "smb",
+        "reel",
+        "knife",
+        "tool",
+        "hood",
+        "gloves",
+        "boots",
+        "socks",
+        "dpv",
+        "bag",
+        "o2Cell",
+        "battery",
+        "other"
+      ]
+    }
+  }
+}

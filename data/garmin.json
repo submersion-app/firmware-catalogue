@@ -1,0 +1,206 @@
+{
+  "models": [
+    {
+      "id": "garmin-descent-g1",
+      "manufacturer": "Garmin",
+      "model": "Descent G1",
+      "aliases": [
+        "Descent G1 Solar"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g1",
+      "releases": [
+        {
+          "version": "17.25",
+          "date": "2026-11-19",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g1/448465/descent-g1-software-version-17-25-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g1/448465/descent-g1-software-version-17-25-rollout"
+        },
+        {
+          "version": "17.24",
+          "date": "2026-11-16",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g1/448253/descent-g2-software-version-17-24-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g1/448253/descent-g2-software-version-17-24-rollout"
+        },
+        {
+          "version": "17.20",
+          "date": "2026-08-24",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g1/442563/descent-g1-software-version-17-20-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g1/442563/descent-g1-software-version-17-20-rollout"
+        },
+        {
+          "version": "17.10",
+          "date": "2026-04-15",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g1/434785/descent-g1-system-software-17-10",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g1/434785/descent-g1-system-software-17-10"
+        }
+      ]
+    },
+    {
+      "id": "garmin-descent-g2",
+      "manufacturer": "Garmin",
+      "model": "Descent G2",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g2",
+      "releases": [
+        {
+          "version": "28.04",
+          "date": "2026-11-05",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g2/447591/descent-g2-software-version-28-04-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g2/447591/descent-g2-software-version-28-04-rollout"
+        },
+        {
+          "version": "27.21",
+          "date": "2026-10-15",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g2/446193/descent-g2-software-version-27-21-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g2/446193/descent-g2-software-version-27-21-rollout"
+        },
+        {
+          "version": "27.19",
+          "date": "2026-09-08",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g2/443691/descent-g2-software-version-27-19-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g2/443691/descent-g2-software-version-27-19-rollout"
+        },
+        {
+          "version": "27.16",
+          "date": "2026-08-17",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g2/442121/descent-g2-software-version-27-16-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-g2/442121/descent-g2-software-version-27-16-rollout"
+        }
+      ]
+    },
+    {
+      "id": "garmin-descent-mk2",
+      "manufacturer": "Garmin",
+      "model": "Descent Mk2",
+      "aliases": [
+        "Descent Mk2i"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk2-mk2i",
+      "releases": [
+        {
+          "version": "30.10",
+          "date": "2026-08-24",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk2-mk2i/442565/descent-mk2-system-software-30-10",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk2-mk2i/442565/descent-mk2-system-software-30-10"
+        },
+        {
+          "version": "30.00",
+          "date": "2026-04-23",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk2-mk2i/435236/descent-mk2-system-software-30-00",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk2-mk2i/435236/descent-mk2-system-software-30-00"
+        }
+      ]
+    },
+    {
+      "id": "garmin-descent-mk3",
+      "manufacturer": "Garmin",
+      "model": "Descent Mk3",
+      "aliases": [
+        "Descent Mk3i",
+        "Descent Mk3s"
+      ],
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk3-series",
+      "releases": [
+        {
+          "version": "28.04",
+          "date": "2026-11-09",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk3-series/447800/descent-mk3-mk3i-mk3s-software-version-28-04-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk3-series/447800/descent-mk3-mk3i-mk3s-software-version-28-04-rollout"
+        },
+        {
+          "version": "27.19",
+          "date": "2026-09-09",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk3-series/443773/descent-mk3-mk3i-software-version-27-19-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk3-series/443773/descent-mk3-mk3i-software-version-27-19-rollout"
+        },
+        {
+          "version": "27.16",
+          "date": "2026-08-19",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk3-series/442243/descent-mk3-software-version-27-16-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk3-series/442243/descent-mk3-software-version-27-16-rollout"
+        },
+        {
+          "version": "25.21",
+          "date": "2026-04-14",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk3-series/434735/descent-mk3-mk3i-system-software-25-21",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-mk3-series/434735/descent-mk3-mk3i-system-software-25-21"
+        }
+      ]
+    },
+    {
+      "id": "garmin-descent-x30",
+      "manufacturer": "Garmin",
+      "model": "Descent X30",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i",
+      "releases": [
+        {
+          "version": "5.02",
+          "date": "2026-11-04",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/447510/descent-x30-software-version-5-02-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/447510/descent-x30-software-version-5-02-rollout"
+        },
+        {
+          "version": "4.01",
+          "date": "2026-08-17",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/442122/descent-x30-software-version-4-01-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/442122/descent-x30-software-version-4-01-rollout"
+        },
+        {
+          "version": "3.09",
+          "date": "2026-04-14",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/434738/descent-x30-system-software-3-09",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/434738/descent-x30-system-software-3-09"
+        },
+        {
+          "version": "3.06",
+          "date": "2026-03-03",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/432341/descent-x30-system-software-3-06",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/432341/descent-x30-system-software-3-06"
+        }
+      ]
+    },
+    {
+      "id": "garmin-descent-x50i",
+      "manufacturer": "Garmin",
+      "model": "Descent X50i",
+      "equipmentTypes": [
+        "computer"
+      ],
+      "firmwarePageUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i",
+      "releases": [
+        {
+          "version": "8.02",
+          "date": "2026-11-02",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/447381/descent-x50i-software-version-8-02-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/447381/descent-x50i-software-version-8-02-rollout"
+        },
+        {
+          "version": "7.05",
+          "date": "2026-08-17",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/442107/descent-x50i-software-version-7-05-rollout",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/442107/descent-x50i-software-version-7-05-rollout"
+        },
+        {
+          "version": "6.04",
+          "date": "2026-07-16",
+          "notesUrl": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/440016/descent-x50i-system-software-6-04",
+          "source": "https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/descent-x50i/440016/descent-x50i-system-software-6-04"
+        }
+      ]
+    }
+  ]
+}
