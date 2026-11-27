@@ -135,9 +135,11 @@ def proposal_body(model: dict, finding: Finding) -> str:
     lines += [
         f"- Read on: {finding.source}",
         "",
-        "Before merging, open the page and check that the version (and date) are right,",
-        "then add a one-line `summary` in your own words and set `safety` to true if the",
-        "maker calls it a safety or critical fix. Merging publishes a new catalogue release.",
+        "Before merging, open the page and check that the version (and date) are right and",
+        "that the maker's release notes list this model for this version (a page can show a",
+        "version the notes give to another model). Then add a one-line `summary` in your own",
+        "words, and set `safety` to true if the maker calls it a safety or critical fix.",
+        "Merging publishes a new catalogue release.",
     ]
     return "\n".join(lines) + "\n"
 
