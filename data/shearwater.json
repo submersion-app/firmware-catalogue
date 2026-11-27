@@ -477,6 +477,14 @@
       "firmwarePageUrl": "https://shearwater.com/pages/tern-tx-support",
       "releases": [
         {
+          "version": "V37",
+          "reportedAs": [
+            "37"
+          ],
+          "notesUrl": "https://cdn.shopify.com/s/files/1/0711/0538/0397/files/Teric-Tern-Release-Notes-v37-English_2.pdf?v=1787956691",
+          "source": "https://shearwater.com/pages/tern-tx-support"
+        },
+        {
           "version": "V36",
           "reportedAs": [
             "36"
